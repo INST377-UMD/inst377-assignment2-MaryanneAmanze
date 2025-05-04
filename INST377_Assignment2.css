@@ -1,0 +1,281 @@
+body{
+    background-color: blanchedalmond;
+    
+}
+
+#bar {
+    background-color:brown;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 2;
+    clear: both;
+    padding: 0;
+    
+}
+
+#main-nav{
+    background-color: brown;
+    text-align: center;
+    padding: 1;  
+}
+
+#main-nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color:saddlebrown;
+    
+}
+#main-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 7px;
+    
+}
+  /* CSS */
+.button-56 {
+align-items: center;
+background-color:tan;
+border: 2px solid #111;
+border-radius: 8px;
+box-sizing: border-box;
+color: #111;
+cursor: pointer;
+display: flex;
+font-family: Inter,sans-serif;
+font-size: 16px;
+height: 48px;
+justify-content: center;
+line-height: 24px;
+max-width: 100%;
+padding: 0 25px;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-56:after {
+background-color: #111;
+border-radius: 8px;
+content: "";
+display: block;
+height: 48px;
+left: 0;
+width: 100%;
+position: absolute;
+top: -2px;
+transform: translate(8px, 8px);
+transition: transform .2s ease-out;
+z-index: -1;
+}
+
+.button-56:hover:after {
+transform: translate(0, 0);
+}
+
+.button-56:active {
+background-color:bisque;
+outline: 0;
+}
+
+.button-56:hover {
+outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
+
+.button-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.quotes-box {
+    background-color:tan ;
+    color: black;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    min-width: 50px;
+}
+
+.listening-box {
+    background-color:darkcyan;
+    color: black;
+    border: 2px solid black;
+    padding: 8px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.listening-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+#start-listening {
+    padding:  7px;
+    border-radius: 5pt;
+    width: 50%;
+}
+
+#stop-listening {
+    padding:  7px;
+    border-radius: 5pt;
+    width: 50%;
+}
+
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #096781 0, #ed1506ce 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 25px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 12px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #ecdcab 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+#myChart {
+    width: 100%
+}
+#chartDiv{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+#stockPart{
+    width: 100%;
+    margin: auto;
+}
+
+#stocksTable {
+    background-color:aliceblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #111;
+
+
+}
+
+#dogSlider {
+    display: flex;
+    align-items: center;
+    width:612px; 
+    height:612px;
+    margin: auto;
+
+}
+
+.dog-button {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  gap: 90px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+}
+
+.dog-button:hover,
+.dog-button:focus {
+  background-color: #07c;
+}
+
+.dog-button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.dog-button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+#breedInfo {
+    background-color: #fff;
+    border-color: #111;
+    border-width: 2px;
+    border-style: solid;
+    max-width: 70%;
+    margin: auto;
+   
+}
+
+#dogButtons {
+    text-align: center;
+}

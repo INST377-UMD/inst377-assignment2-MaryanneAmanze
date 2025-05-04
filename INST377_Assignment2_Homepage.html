@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Assignment2 - Home Page</title>
+        <link rel="stylesheet" href="INST377_Assignment2.css">
+        <script src='INST377_Assignment2.js' defer> </script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+
+    </head>
+    
+    <body onload="loadQuoteAPI()">
+
+        <h1>INST377 - Activities</h1>
+         
+        <nav id="main-nav">
+            <ul>
+                <li><a href="INST377_Assignment2_Homepage.html">Home</a></li>
+                <li><a href="INST377_Assignment2_StocksPage.html">Stocks</a></li>
+                <li><a href="INST377_Assignment2_DogsPage.html">Dogs</a></li>
+            </ul>
+        </nav>
+        <h2>These are some different activities we can try!</h2>
+
+        <div class="button-side"> 
+        <button class="button-56" role="button" onclick="location.href='INST377_Assignment2_StocksPage.html'">Stocks</button>
+        <button class="button-56" role="button" onclick="location.href='INST377_Assignment2_DogsPage.html'">Dogs</button>
+        </div>
+
+        <div class="quotes-box">
+            <h3>Quote of the Page Load</h3>
+            <br>
+            <p id="quoteId"> </p>
+        </div>
+
+        <div class="listening-box">
+            <h2>In this web page there are options to Navigate using Audio!</h2>
+            <p>Ensure your Mic is enabled to be able to use this feature</p>
+            <ul>
+
+                <li>Navigate to a different Page</li>
+                    <ul>
+                        <li>Say: <b>Navigate to (page)</b></li>
+                    </ul>
+                <li>Change the Page Color</li>
+                    <ul>
+                        <li>Say: <b>Change the color to (color)</b></li>
+                    </ul>
+                <li>Say Hello Back to you!</li>
+                    <ul>
+                        <li>Say:<b> Hello</b></li>
+                    </ul>
+            </ul>
+            
+            <div class="listening-buttons">
+                <button id="start-listening">Turn on Listening</button>
+                <button id="stop-listening">Turn off Listening</button> 
+            </div>
+           
+
+        </div>
+        
+    </body
